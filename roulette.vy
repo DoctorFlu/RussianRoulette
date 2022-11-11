@@ -1,10 +1,10 @@
-players: public(address[420])
-plays: public(HashMap[address, bool])
-lost: public(HashMap[address, bool])
+players: address[420]
+plays: HashMap[address, bool]
+lost: HashMap[address, bool]
 odds: uint256
 playersTurn: uint256
 creator: address
-playerLength: public(uint256)
+playerLength: uint256
 
 @external
 def __init__():
